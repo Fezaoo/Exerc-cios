@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <i id="menu_icon" class="material-icons" onclick="clickmenu()">menu</i>
+        <menu id="options">
+            <ul>
+                <li><a href="">Opção 1</a></li>
+                <li><a href="">Opção 2</a></li>
+                <li><a href="">Opção 3</a></li>
+                <li><a href="">Opção 4</a></li>
+                <li><a href="">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nihil architecto labore quaerat maiores, ab ipsum? Perspiciatis nesciunt eaque dolores unde tenetur sequi esse ipsum quis. Ipsum exercitationem ducimus aut!
+            Quisquam repudiandae quis maxime neque molestiae sint suscipit sed, earum labore nihil laboriosam saepe itaque. Laborum voluptates nihil ea labore ullam distinctio quia minus. Temporibus nulla aperiam tempore quo itaque?
+            Ab labore reprehenderit reiciendis delectus. Unde optio laboriosam asperiores dolores esse, cumque ab quos, laudantium omnis fugit repellat sapiente quasi. Voluptates, accusamus! Dicta, deserunt provident repellat atque doloribus obcaecati asperiores!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusamus labore quo expedita rem est. Eum similique rerum porro odit architecto laboriosam omnis voluptatibus, dolorum totam beatae sint quam rem?
+            Maxime nostrum omnis sequi ex voluptatem quas cumque quibusdam consequatur possimus et, eaque veniam tempore sint rerum dicta autem porro tempora amet similique quo quasi? Nostrum esse perspiciatis vitae illo!</p>        
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eos natus perspiciatis qui nulla exercitationem laborum ipsum unde, quo praesentium vel dolorum et. Voluptate quos, deserunt tenetur molestiae repellendus facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, nemo ipsam repellendus consequuntur, expedita dolorem illo quae impedit laboriosam doloremque modi, quia corrupti rerum. Maxime deserunt iste consectetur officiis ut!</p>
+        </article>
+    </main>
+    <script>
+        function clickmenu() {
+            if (options.style.display != 'block') {options.style.display = 'block'}
+            else {options.style.display = 'none'}
+        }
+    </script>
+</body>
+</html>
